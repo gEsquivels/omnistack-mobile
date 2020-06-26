@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 2660,
+  "expoServerNgrokUrl": "https://rt-rqm.anonymous.omnistack-mobile.exp.direct",
+  "packagerNgrokUrl": "https://packager.rt-rqm.anonymous.omnistack-mobile.exp.direct",
+  "ngrokPid": 1764,
+  "webpackServerPort": null
+}

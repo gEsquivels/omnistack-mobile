@@ -41,11 +41,10 @@ export default function Incidents(){
             <View style={styles.header}>
                 <Image source={logoImg} />
                 <Text style={styles.headerText}>
-                    Total de <Text style={styles.headerTextBold}>{total} casos</Text>   
+                    Olá Nome do Aluno   
                 </Text>
             </View>
-            <Text style={styles.title}>Bem-vindo</Text>
-            <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia.</Text>
+            <Text style={styles.title}>Bem-vindo ao App Senai</Text>
             <FlatList
                 data={incidents}
                 style={styles.incidentList}
@@ -76,7 +75,7 @@ export default function Incidents(){
                             onPress={() => navigateToDetail(incident)}
                         >
                             <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-                            <Feather name="arrow-right" size={16} color="#E02041" />
+                            <Feather name="arrow-right" size={16} color="#0652DD" />
                         </TouchableOpacity>
                     </View>                    
                 )}

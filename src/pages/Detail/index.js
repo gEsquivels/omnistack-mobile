@@ -30,7 +30,7 @@ export default function Detail(){
             <View style={styles.header}>
                 <Image source={logoImg} />
                 <TouchableOpacity onPress={navigationBack}>
-                    <Feather name="arrow-left" size={28} color="#E82041" />
+                    <Feather name="arrow-left" size={28} color="#0652DD" />
                 </TouchableOpacity>
             </View>
             <View style={styles.incident}>
